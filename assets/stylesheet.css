@@ -1,0 +1,51 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/*TO DO LIST - TITLE & INPUT FIELDS*/
+.title {
+    word-wrap: break-word
+}
+
+.to-do-container {
+    overflow: scroll;
+}
+
+.bi-check-square {
+   font-size: 40px;
+}
+
+.btn-outline-primary  {
+    width: 25%;
+}
+
+/*TO DO LIST ITEMS*/
+.to-do-list {
+    width: 75%;
+}
+
+.cross {
+    width: 20px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+
+    .btn,
+    .regex-fail-comment,
+    .form-control {
+        font-size: 10px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    .to-do-list {
+        width: 100%;
+    }
+
+}
